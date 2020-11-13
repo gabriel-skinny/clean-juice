@@ -1,0 +1,53 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.logo {
+  font-size: 40px;
+}
+
+.logo span {
+  color: #a6c335;
+}
+
+.menu-links{
+  margin-right: 80px;
+}
+
+.menu-links ul li {
+  display: inline-block;
+  padding-right: 20px; 
+}
+
+.nav li{
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.nav li:hover{
+  opacity: 0.6;
+}
+
+.search,
+.cart {
+  font-size: 20px;
+}
+
+.logo,
+.search,
+.cart,
+.menu-links ul li {
+  cursor: pointer;
+}
+
+div.left{
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
