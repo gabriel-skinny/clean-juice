@@ -28,7 +28,7 @@ const Header: React.FC = () => {
           <FontAwesomeIcon icon={faSearch} size="sm" />
         </div>
 
-        <li>My account</li>
+        <li>My account </li>
 
         <div className="cart">
           <FontAwesomeIcon icon={faShoppingCart} size="sm" />
